@@ -14,9 +14,41 @@ These early experiments are simple on purpose. They’re here to build muscle me
 
 ## Contents (tentative)
 
-- `loss-curves/`: What does a “good” or “bad” loss curve really look like? Explore overfitting, underfitting, and convergence.
-- `linear-regression/`: Fit a line. Do it badly, then do it better. Understand what the loss is telling you.
-- `gradient-descent/`: Code it from scratch. Step through each update. See what changes — and what doesn’t.
+## 🧪 Notebooks Created Today
+
+### `03_loss_curves.ipynb`
+**Goal:** Train a neural network on noisy data and visualize how it learns.
+
+- Simulated data using `y = 3x + 2 + noise`
+- Built a linear regression model in PyTorch (`nn.Linear`)
+- Tracked loss over time using Mean Squared Error (MSE)
+- Explored the effects of:
+  - Learning rate
+  - Weight and bias initialization
+  - Training loop and gradient updates
+- Visualized predictions vs truth
+- Reflected on under/overfitting behavior
+- Wrapped up with markdown Q&A and math explanation
+
+💡 *Result:* A great baseline for understanding how even a simple model learns from data.
+
+---
+
+### `04_loss_curves_wiggles.ipynb`
+**Goal:** Fit a nonlinear, “wiggly” function using deeper neural networks.
+
+- Target function: `y = 3x + 2 + sin(5x) + noise`
+- Added hidden layers with activations (`Tanh`, `ReLU`)
+- Compared architectures: shallow, wide, and deep ("lasagna layers")
+- Experimented with optimizers: `SGD` vs `Adam`
+- Took model snapshots at key epochs for side-by-side plots
+- Discussed slope misalignment, generalization, and learned curve shapes
+
+🧠 *Highlight:* Switching to `Adam` with a `Tanh` lasagna layer gave the best performance on the noisy nonlinear signal.
+
+---
+
+Let me know if you'd like this written more professionally or with some spice (e.g. pirate-coded metaphors or scientific tone)!
 
 ---
 
