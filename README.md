@@ -6,12 +6,6 @@ This repo is a growing collection of small, hands-on projects where I build, tes
 
 I know I have the technical ability to work in machine learning but that’s not always obvious on paper. So this is me proving it to you, one experiment at a time.
 
-## 🗂️ Repo Structure (WIP)
-- `classic-models/` — Linear regression, logistic regression, and MLPs
-- `from-scratch/` — Building components like optimizers, layers, and attention from the ground up
-- `transformer-toybox/` — Transformer explorations and interpretability experiments
-- `sandbox-experiments/` — Quick tests, mini notebooks, weird ideas
-
 ## 🔍 Goals
 - Build intuition for how models actually work  
 - Practice reading, writing, and debugging ML code  
