@@ -12,11 +12,9 @@ These early experiments are simple on purpose. They’re here to build muscle me
 - **Build good habits**: Clean visualizations, readable code, meaningful experiment logs.
 - **Fail forward**: Embrace debugging as part of learning. This is where I mess up, and give the mistake meaning by learning.
 
-## Contents (tentative)
+## Contents
 
-## 🧪 Notebooks Created Today
-
-### `03_loss_curves.ipynb`
+### `bbs_first_model.ipynb`
 **Goal:** Train a neural network on noisy data and visualize how it learns.
 
 - Simulated data using `y = 3x + 2 + noise`
@@ -34,7 +32,7 @@ These early experiments are simple on purpose. They’re here to build muscle me
 
 ---
 
-### `04_loss_curves_wiggles.ipynb`
+### `nonlinear_wiggles.ipynb`
 **Goal:** Fit a nonlinear, “wiggly” function using deeper neural networks.
 
 - Target function: `y = 3x + 2 + sin(5x) + noise`
@@ -45,10 +43,6 @@ These early experiments are simple on purpose. They’re here to build muscle me
 - Discussed slope misalignment, generalization, and learned curve shapes
 
 🧠 *Highlight:* Switching to `Adam` with a `Tanh` lasagna layer gave the best performance on the noisy nonlinear signal.
-
----
-
-Let me know if you'd like this written more professionally or with some spice (e.g. pirate-coded metaphors or scientific tone)!
 
 ---
 
