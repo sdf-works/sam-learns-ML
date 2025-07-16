@@ -20,3 +20,6 @@ I know I have the technical ability to work in machine learning but that’s not
 ## 🚧 Work in Progress
 This is an open lab, not a finished product.  
 Expect messy notebooks, TODOs, and notes-to-self — all part of the learning.
+
+***
+<sub><sup>hey ram — you did dive in. talk soon.</sup></sub>
