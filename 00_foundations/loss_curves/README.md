@@ -22,7 +22,7 @@ Loss curves help us understand *how* a model learns — how fast, how well, and 
 
 ### 🗂 Files
 
-- `loss_curve_intro.ipynb` — full walkthrough notebook
+- `bbs_first_model.ipynb` — full walkthrough notebook
 - `README.md` — you're here
 
 ---
